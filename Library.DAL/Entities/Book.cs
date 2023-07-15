@@ -1,4 +1,4 @@
-﻿namespace Library.Backend.Models.Domain
+﻿namespace Library.DAL.Entities
 {
     public class Book
     {
@@ -10,6 +10,6 @@
         public string Genre { get; set; }
 
         public IEnumerable<Review> Reviews { get; set; }
-        public IEnumerable<Rating> Ratings { get;set; }
+        public IEnumerable<Rating> Ratings { get; set; }
     }
 }

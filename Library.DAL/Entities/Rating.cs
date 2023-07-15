@@ -1,12 +1,11 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace Library.Backend.Models.Domain
+namespace Library.DAL.Entities
 {
-    public class Review
+    public class Rating
     {
         public int Id { get; set; }
-        public string Message { get; set; }
-        public string Reviewer { get; set; }
+        public double Score { get; set; }
         public int BookId { get; set; }
 
         //Navigation property

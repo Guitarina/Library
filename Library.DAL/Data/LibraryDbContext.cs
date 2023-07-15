@@ -1,11 +1,11 @@
-﻿using Library.Backend.Models.Domain;
+﻿using Library.DAL.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace Library.Backend.Data
+namespace Library.DAL.Data
 {
-    public class LibraryDbContext:DbContext
+    public class LibraryDbContext : DbContext
     {
-        public LibraryDbContext(DbContextOptions<LibraryDbContext> options ):base(options)
+        public LibraryDbContext(DbContextOptions<LibraryDbContext> options) : base(options)
         {
 
         }

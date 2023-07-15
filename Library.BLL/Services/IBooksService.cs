@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Library.DAL
+namespace Library.BLL.Services
 {
-    internal class _123
-    {
-    }
+	public interface IBooksService
+	{
+		Task<List<BookDto>>
+	}
 }

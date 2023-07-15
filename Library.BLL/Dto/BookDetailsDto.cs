@@ -12,7 +12,7 @@ namespace Library.Backend.Models.Dto
 
         public double Rating { get; set; }
 
-        public IEnumerable<Review> Reviews { get; set; }
+        public IEnumerable<ReviewDto> Reviews { get; set; }
 
     }
 }
